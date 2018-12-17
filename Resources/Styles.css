@@ -1,0 +1,47 @@
+body, html {
+    background: url("img/BG-img 2.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+div.webSiteName{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+
+}
+
+div.phrase {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    text-decoration: underline;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 16.3%;
+    margin-right: 16.3%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    width: 16.6%;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0e2829;;
+}
