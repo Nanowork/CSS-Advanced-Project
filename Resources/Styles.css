@@ -45,3 +45,47 @@ li a {
 li a:hover {
     background-color: #0e2829;;
 }
+a{
+    color: inherit;
+}
+
+section.info{
+    padding-left: 17%;
+    padding-top: 2%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 19.2%;
+    background: #0e2829;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    background: #0e2829;
+
+}
+button{
+    margin-top: -17%;
+    margin-left: 32%;
+    background: transparent;
+    color: white;
+    border-radius: 40%;
+    border-width: 3px;
+    height: 30px;
+    margin-bottom: 4%;
+    border-color: #94c7c6;
+}
