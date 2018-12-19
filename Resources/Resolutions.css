@@ -1,0 +1,321 @@
+@media only screen and (max-width: 1600px) and (min-width: 1025px) {
+
+    section.info{
+        margin-left: -0.4%;
+    }
+
+    div.phrase{
+        font-size: 60px;
+    }
+
+    /*Zone Pages*/
+    div.cardioPhrase{
+        font-size: 45px;
+    }
+
+    div.strengthPhrase{
+        font-size: 55px;
+    }
+
+    div.FunctionalPhrase{
+        font-size: 35px;
+    }
+
+    div.PtPhrase{
+        font-size: 45px;
+    }
+
+    /*Contacts Page*/
+    section.contactInfo{
+        margin-left: 17.5%;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 961px){
+
+    div.webSiteName{
+        font-size: 50px;
+    }
+
+    div.phrase{
+        font-size: 33px;
+    }
+
+    ul{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    li{
+        width: 100%;
+    }
+
+    div.gallery{
+        width: 33.2%;
+        margin-left: 4%;
+    }
+
+    /*Zone Pages*/
+    div.cardioPhrase{
+        font-size: 35px;
+    }
+
+    div.strengthPhrase{
+        font-size: 50px;
+    }
+
+    div.FunctionalPhrase{
+        font-size: 35px;
+    }
+
+    div.PtPhrase{
+        font-size: 40px;
+    }
+    div.zonePagesTips{
+        margin-left: 27.5%;
+    }
+}
+
+@media only screen and (max-width: 960px) and (min-width: 769px){
+
+    div.webSiteName{
+        font-size: 45px;
+    }
+
+    ul{
+        margin-left: 31%;
+        margin-right: 31%;
+    }
+
+    li{
+        width: 100%;
+    }
+
+    div.phrase{
+        font-size: 45px;
+    }
+
+    section.info{
+        padding-left: 23.5%;
+    }
+
+    div.gallery{
+        width: 33.2%;
+    }
+
+    /*Zone Pages*/
+    div.cardioPhrase{
+        font-size: 35px;
+    }
+
+    div.strengthPhrase{
+        font-size: 45px;
+    }
+
+    div.FunctionalPhrase{
+        font-size: 32px;
+    }
+
+    div.PtPhrase{
+        font-size: 40px;
+    }
+    div.zonePagesTips{
+        margin-left: 27.5%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+
+    div.webSiteName{
+        font-size: 40px;
+    }
+
+    ul{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    li{
+        width: 100%;
+    }
+
+    div.phrase{
+        font-size: 38px;
+    }
+
+    section.info{
+        padding-left: 14%;
+    }
+
+    div.gallery{
+        width: 39.2%;
+    }
+
+    /*Zone Pages*/
+    div.cardioPhrase{
+        font-size: 27px;
+    }
+
+    div.strengthPhrase{
+        font-size: 40px;
+    }
+
+    div.FunctionalPhrase{
+        font-size: 25px;
+    }
+
+    div.PtPhrase{
+        font-size: 32px;
+    }
+    div.zonePagesTips{
+        margin-left: 27.5%;
+    }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 481px) {
+    div.webSiteName{
+        font-size: 40px;
+    }
+    ul{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    li{
+        width: 100%;
+    }
+    div.phrase{
+        font-size: 35px;
+    }
+    section.info{
+        padding-left: 24%;
+    }
+    div.gallery{
+        width: 65.5%;
+    }
+    /*Zone Pages*/
+    div.cardioPhrase{
+        font-size: 25px;
+    }
+    section.zonePagesGallery{
+        padding-left: 26%;
+    }
+    div.zonePagesTips{
+        width: 45.9%;
+        margin-left: 27%;
+    }
+    div.strengthPhrase{
+        font-size: 30px;
+    }
+    div.FunctionalPhrase{
+        font-size: 20px;
+    }
+    div.PtPhrase{
+        font-size: 25px;
+    }
+    /*Contacts Page*/
+    div.gmail{
+        font-size: 34px;
+    }
+}
+@media only screen and (max-width: 480px) and (min-width: 321px) {
+    div.webSiteName{
+        font-size: 35px;
+    }
+    li{
+        width: 100%;
+    }
+    div.phrase{
+        font-size: 25px;
+    }
+    div.gallery{
+        width: 76.2%;
+    }
+    /*Zone Pages*/
+    div.cardioPhrase{
+        font-size: 19px;
+    }
+    section.zonePagesGallery{
+        padding-left: 11%;
+    }
+    div.zonePages-Gallery{
+        width: 86.3%;
+    }
+    div.zonePagesTips{
+        width: 76.5%;
+        margin-left: 12.2%;
+    }
+    div.strengthPhrase{
+        font-size: 25px;
+    }
+    div.FunctionalPhrase{
+        font-size: 27px;
+    }
+    div.PtPhrase{
+        font-size: 35px;
+    }
+    /*Contact Page*/
+    section.contactInfo{
+        width: 100%;
+        margin-left: -0.5%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    div.webSiteName{
+        font-size: 30px;
+    }
+    ul{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    li{
+        width: 100%;
+    }
+    div.phrase{
+        font-size: 17px;
+    }
+    section.info{
+        padding-left: 0;
+        padding-right: 1%;
+    }
+    div.gallery{
+        width: 97.2%;
+    }
+    /*Zone Pages*/
+    div.cardioPhrase{
+        font-size: 24px;
+    }
+    div.zonePages-Gallery{
+        width: 95.3%;
+    }
+    div.zonePagesTips{
+        width: 95.3%;
+        margin-left: 2%;
+    }
+    div.strengthPhrase{
+        font-size: 17px;
+    }
+    div.FunctionalPhrase{
+        font-size: 20px;
+    }
+    div.PtPhrase{
+        font-size: 25px;
+    }
+    section.zonePagesGallery{
+        padding-left: 0;
+    }
+    /*Contact Page*/
+    section.contactInfo{
+        width: 100%;
+        margin-left: -0.5%;
+    }
+    div.webAddresses{
+        font-size: 45px;
+    }
+    div.gmail{
+        font-size: 25px;
+    }
+    div.workTime{
+        font-size: 19px;
+    }
+
+}

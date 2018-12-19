@@ -90,57 +90,6 @@ button{
     border-color: #94c7c6;
 }
 
-
-div.cardioPhrase {
-    text-align: center;
-    color: white;
-    font-size: 50px;
-    text-decoration: underline;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-div.CardioGallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 62.3%;
-    background: #0e2829;
-}
-div.CardioGallery img {
-    width: 100%;
-    height: auto;
-}
-
-section.Cardio-Gallery{
-    padding-left: 27%;
-    padding-top: 2%;
-}
-
-div.CardioTips{
-    margin: 1%;
-    border: 1px solid #ccc;
-    float: left;
-    width: 45.5%;
-    background: #0e2829;
-    text-align: center;
-    color: white;
-    margin-left: 27.2%;
-}
-
-div.sectionNames{
-    text-decoration: underline overline;
-    font-size: 30px;
-    margin-top: 2%;
-}
-div.TipDesc {
-    color: white;
-    padding: 15px;
-    text-align: center;
-    background: #0e2829;
-
-}
-
 /*Cardio Page*/
 div.cardioPhrase {
     text-align: center;
