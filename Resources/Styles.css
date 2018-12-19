@@ -141,6 +141,7 @@ div.TipDesc {
 
 }
 
+/*Cardio Page*/
 div.cardioPhrase {
     text-align: center;
     color: white;
@@ -149,10 +150,31 @@ div.cardioPhrase {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+/*Strength Page*/
 div.strengthPhrase{
     text-align: center;
     color: white;
     font-size: 70px;
+    text-decoration: underline;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*Functional Page*/
+div.FunctionalPhrase{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+div.PtPhrase{
+    text-align: center;
+    color: white;
+    font-size: 55px;
     text-decoration: underline;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -191,10 +213,60 @@ div.sectionNames{
     font-size: 30px;
     margin-top: 2%;
 }
+
 div.TipDesc {
     color: white;
     padding: 15px;
     text-align: center;
     background: #0e2829;
 
+}
+
+/* PT Page*/
+ol.PtCharacteristics{
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+    margin-left: 19%;
+    margin-right: 18.7%;
+    background-color: #0e2829;
+    margin-top: -2%;
+    margin-bottom: 13%;
+}
+
+/*Contact Page*/
+section.contactInfo{
+    margin: 1%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 65%;
+    background: #0e2829;
+    text-align: center;
+    margin-left: 17.3%;
+}
+
+div.webAddresses{
+    margin-top:2%;
+    color: white;
+    font-size: 60px;
+}
+
+div.gmail{
+    margin-top: 2%;
+    color:white;
+    font-size: 40px;
+}
+
+div.workTime{
+    margin-top: 2%;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+div.location{
+    color: white;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
