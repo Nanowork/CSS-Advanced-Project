@@ -34,20 +34,9 @@
         font-size: 12px;
     }
 
-    .siteFooter{
-        width: 900px;
-    }
-    footer{
-        width:900px;
-    }
-
     /*Zone Pages*/
     .zonePagesContent{
         width: 900px;
-    }
-
-    .zonePagesFooter{
-        width:900px;
     }
 
     /*Cardio Zone Page*/
@@ -81,10 +70,6 @@
 
     .webAddresses{
         font-size: 55px;
-    }
-
-    .contactsPageFooter{
-        width: 900px;
     }
 }
 
@@ -121,12 +106,6 @@
         margin-left: 100px;
         font-size: 12px;
     }
-    .siteFooter{
-        width: 600px;
-    }
-    footer{
-        width: 600px;
-    }
 
     /*Zone Pages*/
     .zonePagesContent{
@@ -139,10 +118,6 @@
 
     .zonePagesTips{
         width: 500px;
-    }
-
-    .zonePagesFooter{
-        width: 600px;
     }
 
     /*Cardio Zone Page*/
@@ -176,10 +151,6 @@
 
     .webAddresses{
         font-size: 50px;
-    }
-
-    .contactsPageFooter{
-        width: 600px;
     }
 }
 
@@ -217,14 +188,6 @@
         margin-left: 150px;
     }
 
-    .siteFooter{
-        width: 400px;
-    }
-    footer{
-        bottom: -850px;
-        width: 400px;
-    }
-
     /*Zone Pages*/
     .zonePagesContent{
         width: 400px;
@@ -237,11 +200,6 @@
     .zonePagesTips{
         width: 400px;
     }
-
-    .zonePagesFooter{
-        width: 400px;
-    }
-
     /*Cardio Zone Page*/
     .cardioPhrase{
         font-size: 30px;
@@ -274,11 +232,6 @@
     .webAddresses{
         font-size: 50px;
     }
-
-    .contactsPageFooter{
-        width: 400px;
-        margin-bottom: -10px;
-    }
 }
 
 @media only screen and (max-width: 480px) and (min-width: 320px){
@@ -309,15 +262,6 @@
         height: 355px;
     }
 
-    .siteFooter{
-        width: 300px;
-    }
-
-    footer{
-        bottom: -1000px;
-        width: 300px;
-    }
-
     /*Zone Pages*/
     .zonePagesContent{
         width: 300px;
@@ -328,10 +272,6 @@
     }
 
     .zonePagesTips{
-        width: 300px;
-    }
-
-    .zonePagesFooter{
         width: 300px;
     }
 
@@ -385,12 +325,6 @@
         color: white;
         text-align: center;
         font-size: 20px;
-    }
-
-    .contactsPageFooter{
-        width: 300px;
-        position: relative;
-        margin-bottom: -10px;
     }
 
 }

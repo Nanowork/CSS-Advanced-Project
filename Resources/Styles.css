@@ -98,21 +98,6 @@ button a{
     text-decoration: none;
 }
 
-.siteFooter{
-    width: 1200px;
-    height:100%;
-    margin: auto;
-}
-
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 1200px;
-    text-align: center;
-    color: white;
-    background: #333;
-}
-
 /*Zone Pages*/
 
 .zonePagesContent{
@@ -165,21 +150,6 @@ footer{
     text-align: center;
     font-size: 15px;
     margin: 0px 20px 20px;
-}
-.siteFooter{
-    width: 1200px;
-    height: 100%;
-    margin: auto;
-}
-.zonePagesFooter{
-    position: relative;
-    margin-bottom: -10px;
-    margin-top: 20px;
-    bottom: 0;
-    width: 1200px;
-    text-align: center;
-    color: white;
-    background: #333;
 }
 
 /*Strength Zone Page*/
@@ -253,18 +223,4 @@ footer{
     color: white;
     text-align: center;
     font-size: 25px;
-}
-
-.siteFooter{
-    width: 1200px;
-    height: 100%;
-    margin: auto;
-}
-
-.contactsPageFooter{
-    position: absolute;
-    bottom: 0;
-    width: 1200px;
-    text-align: center;
-    color: white;
 }
