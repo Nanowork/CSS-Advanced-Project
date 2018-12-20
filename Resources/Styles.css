@@ -98,6 +98,21 @@ button a{
     text-decoration: none;
 }
 
+.siteFooter{
+    width: 1200px;
+    height:100%;
+    margin: auto;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+    text-align: center;
+    color: white;
+    background: #333;
+}
+
 /*Zone Pages*/
 
 .zonePagesContent{
@@ -151,6 +166,21 @@ button a{
     font-size: 15px;
     margin: 0px 20px 20px;
 }
+.siteFooter{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.zonePagesFooter{
+    position: relative;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    bottom: 0;
+    width: 1200px;
+    text-align: center;
+    color: white;
+    background: #333;
+}
 
 /*Strength Zone Page*/
 .strengthPhrase{
@@ -192,10 +222,11 @@ button a{
 
 .contactsInfo{
     width: 1200px;
-    margin: 20px 0px;
+    margin: 150px 0px;
     border: 1px solid white;
     background: #0e2829;
-    padding: 20px 0px 20px;
+    padding: 100px 0px 50px;
+    height: 300px;
 }
 
 .webAddresses{
@@ -208,16 +239,32 @@ button a{
     color: white;
     text-align: center;
     font-size: 30px;
+    padding-top: 50px;
 }
 
 .workTime{
     color: white;
     text-align: center;
     font-size: 20px;
+    padding: 10px;
 }
 
 .location{
     color: white;
     text-align: center;
     font-size: 25px;
+}
+
+.siteFooter{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.contactsPageFooter{
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+    text-align: center;
+    color: white;
 }
