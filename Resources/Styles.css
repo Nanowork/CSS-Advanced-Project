@@ -1,86 +1,90 @@
-body, html {
-    background: url("img/BG-img 2.jpg") no-repeat center center fixed;
+body {
+    background: url("img/BG.jpg") no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Roboto',sans-serif;
 }
 
-div.webSiteName{
+
+header{
+    width: 1200px;
+    margin: auto;
+}
+
+.webSiteName{
     text-align: center;
     color: white;
-    font-size: 60px;
-
+    font-size: 50px;
+    padding: 10px 0px;
 }
 
-div.phrase {
-    text-align: center;
-    color: white;
-    font-size: 70px;
-    text-decoration: underline;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.webSiteName a{
+    color: #fff;
+    text-decoration: none;
 }
 
-ul {
+.navBar ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
-    margin-left: 16.3%;
-    margin-right: 16.3%;
     overflow: hidden;
     background-color: #333;
 }
 
-li {
+.navBar ul li {
     float: left;
-    width: 16.6%;
+    width: 200px;
 
 }
 
-li a {
+.navBar ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 0px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #0e2829;;
-}
-a{
-    color: inherit;
+.navBar ul li a:hover {
+    background-color: #0e2829;
 }
 
-section.info{
-    padding-left: 17%;
-    padding-top: 2%;
+.siteContent{
+    width: 1200px;
+    height:100%;
+    margin: auto;
 }
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+.phrase {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-decoration: underline;
+    padding: 20px 0px 30px 0px;
+}
+
+.gallery {
+    width: 292px;
     float: left;
-    width: 19.2%;
+    height: 330px;
+    margin: 20px 3px;
+    border: 1px solid white;
     background: #0e2829;
 }
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
+.gallery .desc {
     color: white;
     padding: 15px;
     text-align: center;
     background: #0e2829;
-
+    height: 100px;
 }
+
+.gallery img {
+    width: 100%;
+    height: 155px;
+}
+
 button{
-    margin-top: -17%;
-    margin-left: 32%;
+    margin-left: 100px;
     background: transparent;
     color: white;
     border-radius: 40%;
@@ -90,132 +94,131 @@ button{
     border-color: #94c7c6;
 }
 
-/*Cardio Page*/
-div.cardioPhrase {
-    text-align: center;
-    color: white;
-    font-size: 50px;
-    text-decoration: underline;
-    margin-top: 2%;
-    margin-bottom: 2%;
+button a{
+    color: #fff;
+    text-decoration: none;
 }
 
-/*Strength Page*/
-div.strengthPhrase{
-    text-align: center;
-    color: white;
-    font-size: 70px;
-    text-decoration: underline;
-    margin-top: 2%;
-    margin-bottom: 2%;
+/*Zone Pages*/
+
+.zonePagesContent{
+    width: 1200px;
+    height:100%;
+    margin: auto;
 }
 
-/*Functional Page*/
-div.FunctionalPhrase{
+.cardioPhrase{
     text-align: center;
+    font-size: 46px;
+    margin: 20px 0px 40px;
     color: white;
-    font-size: 40px;
     text-decoration: underline;
-    margin-top: 2%;
-    margin-bottom: 2%;
 }
-
-div.PtPhrase{
-    text-align: center;
-    color: white;
-    font-size: 55px;
-    text-decoration: underline;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-div.zonePages-Gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 62.3%;
+.zonePagesGallery {
+    width: 800px;
+    margin: auto;
+    border: 1px solid white;
     background: #0e2829;
+    margin-bottom: 20px;
 }
-div.zonePages-Gallery img {
-    width: 100%;
-    height: auto;
-}
-
-section.zonePagesGallery{
-    padding-left: 27%;
-    padding-top: 2%;
-}
-
-div.zonePagesTips{
-    margin: 1%;
-    border: 1px solid #ccc;
-    float: left;
-    width: 45.5%;
-    background: #0e2829;
-    text-align: center;
-    color: white;
-    margin-left: 27.2%;
-}
-
-div.sectionNames{
-    text-decoration: underline overline;
-    font-size: 30px;
-    margin-top: 2%;
-}
-
-div.TipDesc {
+.zonePagesGallery .desc {
     color: white;
     padding: 15px;
     text-align: center;
     background: #0e2829;
-
 }
 
-/* PT Page*/
-ol.PtCharacteristics{
-    list-style-type: circle;
-    margin: 0;
-    padding: 0;
-    margin-left: 19%;
-    margin-right: 18.7%;
-    background-color: #0e2829;
-    margin-top: -2%;
-    margin-bottom: 13%;
+.zonePagesGallery img {
+    width: 100%;
 }
 
-/*Contact Page*/
-section.contactInfo{
-    margin: 1%;
-    border: 1px solid #ccc;
-    float: left;
-    width: 65%;
+.zonePagesTips{
+    width: 800px;
+    margin: auto;
+    border: 1px solid white;
     background: #0e2829;
-    text-align: center;
-    margin-left: 17.3%;
 }
 
-div.webAddresses{
-    margin-top:2%;
+.sectionNames{
+    color:white;
+    text-align: center;
+    text-decoration: underline overline;
+    margin: 20px;
+    font-size: 30px;
+}
+.tipDesc{
     color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px 20px 20px;
+}
+
+/*Strength Zone Page*/
+.strengthPhrase{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+    margin: 20px 0px 40px;
+}
+
+/*Functional Zone Page*/
+.functionalPhrase{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 38px;
+    margin: 20px 0px 40px;
+}
+
+/*Personal Trainers*/
+.ptPhrase{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    margin: 20px 0px 40px;
+}
+.ptCharacteristics{
+    list-style: none;
+    padding: 2px;
+}
+
+/*Contacts Page*/
+.contactsContent{
+    width: 1200px;
+    height:100%;
+    margin: auto;
+}
+
+.contactsInfo{
+    width: 1200px;
+    margin: 20px 0px;
+    border: 1px solid white;
+    background: #0e2829;
+    padding: 20px 0px 20px;
+}
+
+.webAddresses{
+    color: white;
+    text-align: center;
     font-size: 60px;
 }
 
-div.gmail{
-    margin-top: 2%;
-    color:white;
-    font-size: 40px;
+.gmail{
+    color: white;
+    text-align: center;
+    font-size: 30px;
 }
 
-div.workTime{
-    margin-top: 2%;
+.workTime{
     color: white;
-    font-size: 25px;
-    margin-bottom: 2%;
+    text-align: center;
+    font-size: 20px;
 }
 
-div.location{
+.location{
     color: white;
+    text-align: center;
     font-size: 25px;
-    margin-top: 2%;
-    margin-bottom: 2%;
 }
